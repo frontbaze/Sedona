@@ -1,0 +1,92 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+/* VERIABLES */
+
+:root {
+    --basic-white: #fff;
+    --basic-black: #000;
+    --basic-dark: #333333;
+    --basic-blue: #81B3D2;
+    --basic-grey: #EEEEEE;
+    --light-grey: #F2F2F2;
+    --darker-grey: #EAEAEA;
+}
+
+/* GLOBAL */
+
+.page__body {
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--basic-black);
+    background-color: var(--basic-white);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+/* HEADER */
+
+.page__header {
+
+}
+.header {
+
+}
+
+.header__nav {
+    width: 1200px;
+    display: flex;
+}
+.header__logo {
+    width: 244px;
+}
+.header_list {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.header__item {
+    width: 239px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.header__link {
+    color: var(--basic-black);
+}
