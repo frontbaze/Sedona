@@ -51,25 +51,25 @@
             </div>
 
             <ul class="features__list">
-                <li class="feature__item item">
+                <li class="features__item item">
                     <div class="item__motel">
                         <img class="item__img" src="img/icon-house.svg.svg" alt="">
                         <h3 class="item__title">Жилье</h3>
-                        <p class="item__text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                        <p class="item__text">Рекомендуем пожить в настоящем <br> мотеле, все как в кино!</p>
                     </div>
                 </li>
-                <li class="feature__item item">
+                <li class="features__item item">
                     <div class="item__food">
                         <img class="item__img" src="img/icon-burger.svg.svg" alt="">
                         <h3 class="item__title">Еда</h3>
-                        <p class="item__text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                        <p class="item__text">Всегда заказывайте фирменный бургер, <br> вы не разочаруетесь!</p>
                     </div>
                 </li>
-                <li class="feature__item item">
+                <li class="features__item item">
                     <div class="item__souvenir">
                         <img class="item__img" src="img/icon-gift.svg.svg" alt="">
                         <h3 class="item__title">Сувениры</h3>
-                        <p class="item__text">Не только китайского, но и местного производства!</p>
+                        <p class="item__text">Не только китайского, <br> но и местного производства!</p>
                     </div>
                 </li>
             </ul>
@@ -77,28 +77,32 @@
             <div class="features__wrapper">
                 <img src="img/feature-2-photo.jpg" width="800" height="256" alt="Sedona Photo">
                 <div class="features__block block">
-                    <h3 class="block__title">Там есть мост дъявола</h3>
+                    <h3 class="block__title">Там есть <br> мост дъявола</h3>
                     <p class="block__number">№2</p>
                     <p class="block__text">Да, по нему можно пройти! <br> Если вы осмелитесь, конечно</p>
                 </div>
             </div>
 
-            <ul class="features__list">
-                <li class="feature__item item">
+            <ul class="features__list features__list--grey">
+                <li class="features__item item">
                     <div class="item__small">
-                        <h3 class="item__title">Небольшая площадь</h3>
-                        <p class="item__number">№3</p>
-                        <p class="item__text">Все интересные места находятся очень близко</p>
+                        <h3 class="item__title item__title--grey">Небольшая <br> площадь</h3>
+                        <p class="item__number item__number--grey">№3</p>
+                        <p class="item__text item__text--grey">Все интересные места находятся очень <br> близко</p>
                     </div>
+                </li>
+                <li>
                     <div class="item__road">
-                        <h3 class="item__title">Красивая дорога</h3>
-                        <p class="item__number">№4</p>
-                        <p class="item__text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+                        <h3 class="item__title item__title--grey">Красивая <br> дорога</h3>
+                        <p class="item__number item__number--grey">№4</p>
+                        <p class="item__text item__text--grey">Ехать в Седону из Лас-Вегаса совсем <br> не скучно!</p>
                     </div>
+                </li>
+                <li>
                     <div class="item__tourist">
-                        <h3 class="item__title">Мало туристов</h3>
-                        <p class="item__number">№5</p>
-                        <p class="item__text">Большинство едет в Гранд Каньон и толпится там</p>
+                        <h3 class="item__title item__title--grey">Мало <br> туристов</h3>
+                        <p class="item__number item__number--grey">№5</p>
+                        <p class="item__text item__text--grey">Большинство едет в Гранд Каньон и <br> толпится там</p>
                     </div>
                 </li>
             </ul>
@@ -107,40 +111,41 @@
         <section class="main__interest interest">
             <div class="interest__wrapper">
                 <h2 class="interest__title">Заинтересовались?</h2>
-                <p>Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+                <p class="interest__text">Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
                 <button class="button" type="button">Найти гостиницу</button>
             </div>
         </section>
     </main>
-    <section class="page__map map">
+    <section class="page__map map container">
         <!-- MAP -->
+        <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/110669/sedona/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Седона</a><a href="https://yandex.ru/maps/110669/sedona/?ll=-111.756278%2C34.871955&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoyMjQwMjg5OTA3EjpVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsIEFyaXpvbmEsIENvY29uaW5vIENvdW50eSwgU2Vkb25hIgoNOIXfwhVeegtC&utm_medium=mapframe&utm_source=maps&z=15.01" style="color:#eee;font-size:12px;position:absolute;top:14px;">Седона — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCURVGRDsC" width="1200" height="350" frameborder="" allowfullscreen="true" style="position:relative;"></iframe></div>
     </section>
-    <footer class="page__footer footer">
-        <p>#visitsedona</p>
+    <footer class="page__footer footer container">
+        <p class="footer__hashtag">#visitsedona</p>
         <div class="footer__social social">
             <ul class="social__list">
                 <li class="social__item">
                     <a class="social__link" href="#">
-                        Tweeter
+                        <img src="img/icon-twitter.svg" alt="Tweeter">
                     </a>
                 </li>
                 <li class="social__item">
                     <a class="social__link" href="#">
-                        Facebook
+                        <img src="img/icon-facebook.svg" alt="Facebook">
                     </a>
                 </li>
                 <li class="social__item">
                     <a class="social__link" href="#">
-                        Youtube
+                        <img src="img/icon-youtube.svg" alt="Youtube">
                     </a>
                 </li>
             </ul>
         </div>
 
         <div class="footer__copyright">
-            <p>Разработано</p>
+            <p class="footer__copyright-text">Разработано</p>
             <a href="#">
-                <img src="" alt="">
+                <img src="img/htmlacademy.svg" alt="htmlacademy">
             </a>
         </div>
     </footer>
