@@ -101,4 +101,138 @@ img {
 
 .header__link {
     color: var(--basic-black);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.page__main {
+    margin-top: 55px;
+}
+.main {
+
+}
+.main__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 43px;
+}
+.main__title {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+}
+.main__text {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--basic-dark);
+}
+.main__features {
+
+}
+.features {
+
+}
+.features__wrapper {
+    display: flex;
+}
+.features__block {
+    background-color: var(--basic-blue);
+}
+.block {
+    width: 400px;
+    height: 256px;
+    padding: 47px 52px 56px;
+    box-sizing: border-box;
+}
+.block__title {
+    margin: 0;
+    padding: 0;
+    color: var(--basic-white);
+    text-align: center;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+.block__number {
+    color: var(--basic-white);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.block__text {
+    color: var(--basic-white);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.features__list {
+
+}
+.feature__item {
+
+}
+.item {
+}
+.item__motel {
+}
+.item__img {
+}
+.item__title {
+}
+.item__text {
+}
+.item__food {
+}
+.item__souvenir {
+}
+.item__small {
+}
+.item__number {
+}
+.item__road {
+}
+.item__tourist {
+}
+.main__interest {
+}
+.interest {
+}
+.interest__wrapper {
+}
+.interest__title {
+}
+.button {
+}
+.page__map {
+}
+.map {
+}
+.page__footer {
+}
+.footer {
+}
+.footer__social {
+}
+.social {
+}
+.social__list {
+}
+.social__item {
+}
+.social__link {
+}
+.footer__copyright {
 }
