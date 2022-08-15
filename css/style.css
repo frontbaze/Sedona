@@ -67,16 +67,28 @@ img {
 .header__nav {
     width: 1200px;
     display: flex;
+    justify-content: space-between;
 }
+
 .header__logo {
-    width: 244px;
-}
-.header_list {
     display: flex;
-    width: 100%;
+}
+.header__list {
+    display: flex;
     padding: 0;
     margin: 0;
     list-style: none;
+}
+.header__item:nth-child(1) {
+    order: 1;
+    align-items: flex-start;
+    z-index: 1;
+}
+.header__item:nth-child(4) {
+    order: 2;
+}
+.header__item:nth-child(5) {
+    order: 3;
 }
 .header__item {
     width: 239px;
